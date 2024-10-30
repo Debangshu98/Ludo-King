@@ -20,3 +20,36 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+# Ignore Unity auto-generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Ignore crash reports, settings, and logs
+*.stacktrace
+*.log
+
+# Ignore auto-generated metadata
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Ignore Visual Studio Code and Rider files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.pidb
+*.sln
+*.unityproj
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
